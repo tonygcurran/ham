@@ -1,3 +1,6 @@
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function setup() {
 noCursor();
