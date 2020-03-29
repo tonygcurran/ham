@@ -1,9 +1,7 @@
-function windowResized() {
-  resizeCanvas(displayWidth, displayHeight);
-}
+
 function setup() {
 noCursor();
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   //background(random(red,green,blue));
   x = random(5,height/4);
   y = random(5,height/4);
