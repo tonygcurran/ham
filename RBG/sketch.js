@@ -1,4 +1,6 @@
-
+function windowResized() {
+  resizeCanvas(displayWidth, displayHeight);
+}
 function setup() {
 noCursor();
   createCanvas(displayWidth, displayHeight);
